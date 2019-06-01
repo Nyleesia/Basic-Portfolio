@@ -1,0 +1,43 @@
+
+
+header{
+    background-color: lightskyblue;
+    height: 80px;
+    width:1525px;
+} 
+#headername {
+    color: darkblue;
+    font-weight: bold;
+    font-size: xx-large;
+    width: 850px;
+    margin:0;
+    padding-right: 50px;
+    padding-left: 25px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    float: left;
+}
+#headerlist {
+    color: green;
+    width: 500p;
+    font-size: large;
+    list-style:none;
+    float:right;
+    padding-right: 25px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    text-align: right;
+}
+body {
+    background-color: yellow;
+}
+#profilephoto {
+    border-color: lightskyblue;
+    width: 200px;
+}
+#profilelist  {
+    color: darkblue
+    width: 200px;
+}
+
