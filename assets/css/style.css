@@ -1,43 +1,128 @@
 
-
-header{
+.headerinfo{
+    border: solid 1px;
     background-color: lightskyblue;
-    height: 80px;
-    width:1525px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
 } 
 #headername {
-    color: darkblue;
+    text-align: left;
+    color: white;
     font-weight: bold;
-    font-size: xx-large;
-    width: 850px;
-    margin:0;
-    padding-right: 50px;
-    padding-left: 25px;
-    padding-top: 40px;
-    padding-bottom: 0px;
+    font-size: 40px;
+    font-weight: 100;
+    width: 56%;
+    margin:0px 225px 0px 0px;
     float: left;
-}
-#headerlist {
-    color: green;
-    width: 500p;
-    font-size: large;
-    list-style:none;
-    float:right;
-    padding-right: 25px;
-    padding-left: 50px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    text-align: right;
-}
-body {
-    background-color: yellow;
-}
-#profilephoto {
-    border-color: lightskyblue;
-    width: 200px;
-}
-#profilelist  {
-    color: darkblue
-    width: 200px;
+    padding: 30px 5px 0px 0px;
+    max-width: 100%;
+    height: auto;
 }
 
+#about {
+    text-align: center;
+    border-left: solid 2px;
+    width: 8%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    padding: 30px 5px 0px 0px;
+    margin:30px 10px 0px 0px;
+    max-width: 100%;
+    height: auto;
+}
+  
+#portfolio {
+    text-align: center;
+    border-left: solid 2px;
+    width: 8%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    padding: 30px 5px 0px 0px;
+    margin:30px 10px 0px 0px;
+    max-width: 100%;
+    height: auto;
+}
+  
+#contact {
+    text-align: center;
+    border-left: solid 2px;
+    width: 8%;
+    float: left;
+    font-size: 15px;
+    color: white;
+    padding: 30px 5px 0px 0px;
+    margin:30px 10px 0px 0px;
+    }
+
+body {
+    clear:both;
+    overflow: auto;
+    border: solid 1px;
+    background-color:blueviolet;
+    font-family: 'arial';
+}
+
+#aside {
+    border: solid 1px;
+    margin: 0px 0px 20px 40px;
+    width: 22%;
+    float: left;
+    font-size: 25px;
+    color:black;
+    text-align: left;
+    padding: 35px 20px 20px 20px;
+    line-height: 70px;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    border-radius: 60%;
+    max-width: 100%;
+    height: auto;
+    caption-side: bottom;
+
+}
+
+#myphoto {
+    border-radius: 60%;
+    border-color: lightskyblue;
+    width: 29%;
+    float: left;
+    margin: 20px 20px 25px 0px;
+    align-content: left;
+    max-width: 100%;
+    height: auto;
+}
+
+#paragraphs {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+}
+
+#yoshiphoto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    border-color: lightskyblue;
+    width: 29%;
+    float: left;
+    margin: 20px 20px 25px 0px;
+    align-content: left;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    border: solid 1px;
+    clear:both;
+    background-color: blue;
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
